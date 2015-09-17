@@ -4,7 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio | charatori</title>
+    <meta name="description" >
+    <meta name="Keywords" content="Portfolio,白鳥 啓太,Github" />
+    <title>Portfolio | 白鳥 啓太</title>
+    <meta name="description" content="白鳥 啓太のポートフォリオ。僕のプロフィールと作成したアプリをご紹介します。" />
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
@@ -24,12 +27,12 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Portfolio</a>
+            <a class="navbar-brand" href="#firstview">Portfolio</a>
           </div>
           <div class="collapse navbar-collapse" id="site-menu">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Profile</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> Applications</a></li>
+              <li><a href="#profile"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Profile</a></li>
+              <li><a href="#applications"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> Applications</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                   <span class="glyphicon glyphicon glyphicon-bookmark" aria-hidden="true"></span> 
@@ -48,13 +51,13 @@
     </header>
     <div class=container>
       <br>
-      <div class="page-header firstview">
+      <div class="page-header firstview" id="firstview">
         <h1><span class="bg">　Introduction of New Service</span></h1>
-        <p><span class="bg">　by charatori</span></p>
+        <p><span class="bg">　by K.Shiratori</span></p>
       </div>
       <hr>
       <div class="row" id="profile">
-        <div class="icon col-md-2">
+        <div class="photo col-md-2">
           <h2>Profile</h2>
           <img id="myphoto" src="img/profile.jpg" alt="profile"></img>
         </div>
@@ -63,58 +66,67 @@
           <p>
             白鳥 啓太<br>
             飛行機の窓から外を眺めるのが好きです。<br>
+            <a target="_blank" href="https://github.com/KeitaShiratori">
+              <span class="glyphicon glyphicon-link" aria-hidden="true"></span> Link to Github
+            </a>
           </p>
           <ul class="nav nav-pills">
-            <li><img class="img-icon" src="img/java.png"/>Java</li>
-            <li><img class="img-icon" src="img/cpp.png"/>C++</li>
-            <li><img class="img-icon" src="img/icon.png"/>Cocos 2d-x</li>
-            <li><img class="img-icon" src="img/android.png"/>Android</li>
-            <li><img class="img-icon" src="img/magento.png"/>Magento</li>
-            <li><img class="img-icon" src="img/ruby.png"/>Ruby on Rails</li>
+            <li>言語&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+            <li><img class="programing-lang-icon" src="img/java.png"/> Java&nbsp;&nbsp;&nbsp;&nbsp;</li>
+            <li><img class="programing-lang-icon" src="img/cpp.png"/> C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+            <li><img class="programing-lang-icon" src="img/php.png"/> PHP&nbsp;&nbsp;&nbsp;</li>
+            <li><img class="programing-lang-icon" src="img/ruby.png"/> Ruby</li>
+          </ul>
+          <ul class="nav nav-pills">
+            <li>フレームワーク</li>
+            <li><img class="programing-lang-icon" src="img/android.png"/> Android</li>
+            <li><img class="programing-lang-icon" src="img/icon.png"/> Cocos 2d-x</li>
+            <li><img class="programing-lang-icon" src="img/magento.png"/> Magento</li>
+            <li><img class="programing-lang-icon" src="img/rails.png"/> Rails</li>
           </ul>
           <div class="spacer hidden-xs hidden-sm"></div>
         </div>
       </div>
       <hr>
-      <div class="row applications">
+      <div class="row applications" id="applications">
         <h2>Applications</h2>
-        <div class="content col-md-3">
+        <div class="content col-md-3 thumbnail">
           <a href="#">
-            <img src="img/Comingsoon.png" class="attachment-post-thumbnail wp-post-image" alt="MessageBoard">
+            <img src="img/Comingsoon.png" alt="MessageBoard">
             <div class="description">
 	           	<span class="arrow-r" style="opacity: 0; right: 0px;"></span>
-	           	<h4>MessageBoard</h4>
-	           	<p>名前と伝言を書き残せるサービス</p>
+	           	<h3>メッセージボード</h3>
+	           	<p>名前と伝言を書き残せるサイト</p>
 	           </div>
 	        </a>
         </div>
-        <div class="content col-md-3">
+        <div class="content col-md-3 thumbnail">
           <a href="#">
-            <img src="img/Comingsoon.png" class="attachment-post-thumbnail wp-post-image" alt="MessageBoard">
+            <img src="img/Comingsoon.png" alt="MessageBoard">
             <div class="description">
 	           	<span class="arrow-r" style="opacity: 0; right: 0px;"></span>
-	           	<h4>Twitterクローン</h4>
+	           	<h3>Twitterクローン</h3>
 	           	<p>Twitterのクローンサイト</p>
 	           </div>
 	        </a>
         </div>
-        <div class="content col-md-3">
+        <div class="content col-md-3 thumbnail">
           <a href="#">
-            <img src="img/Comingsoon.png" class="attachment-post-thumbnail wp-post-image" alt="MessageBoard">
+            <img src="img/Comingsoon.png" alt="MessageBoard">
             <div class="description">
 	           	<span class="arrow-r" style="opacity: 0; right: 0px;"></span>
-	           	<h4>モノリスト</h4>
-	           	<p>自分の持っているもの、欲しいものを共有するサービス</p>
+	           	<h3>モノリスト</h3>
+	           	<p>持ってるモノや欲しいモノを共有できるサイト</p>
 	           </div>
 	        </a>
         </div>
-        <div class="content col-md-3">
+        <div class="content col-md-3 thumbnail">
           <a href="#">
-            <img src="img/Comingsoon.png" class="attachment-post-thumbnail wp-post-image" alt="MessageBoard">
+            <img src="img/Comingsoon.png" alt="MessageBoard">
             <div class="description">
 	           	<span class="arrow-r" style="opacity: 0; right: 0px;"></span>
-	           	<h4>Original Service</h4>
-	           	<p>今みんなが聞いている楽曲ランキングを提供するサイト</p>
+	           	<h3>Original Service</h3>
+	           	<p>J-POPのリアルタイムランキングサイト</p>
 	           </div>
 	        </a>
         </div>

@@ -8,7 +8,8 @@
 .firstview:before {
   content:"";
   display: block;
-  padding-top:42%;
+  padding-top:37%;
+  margin-top: -20px;
 }
 .firstview h1{
   position: relative;

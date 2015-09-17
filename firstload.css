@@ -2,32 +2,18 @@ body {
   font-size: 24px;
 }
 
-.navbar {
-  border-radius: 0; 
+h2{
+  letter-spacing: 0.15em;
+  text-shadow: 1px 1px 0px #000;
+}
+
+.navbar, .navbar-default, .navbar-fixed-top{
+  height: 67px;
 }
 
 .navbar-brand{
+  margin-top: 10px;
   font-size: 40px;
-  text-align: center;
-}
-
-.icon {
-  text-align: center;
-}
-
-.icon .glyphicon {
-  margin-bottom: 10px;
-  font-size: 50px;
-  color: #777;
-}
-
-.content h2 {
-  margin-top: 0;
-  padding-bottom: 15px;
-}
-
-.content p {
-  margin-bottom: 30px;
 }
 
 footer {
@@ -42,10 +28,11 @@ footer {
   color: #666;
 }
 
-#profile {
-  padding: 2px;
-  margin: -21px 2px;
-  background-color: #fff;
+#profile{
+  color: #48f;
+  text-align: center;
+  margin-top:-67px;
+  padding-top:67px;
 }
 
 #profile .spacer{
@@ -53,44 +40,52 @@ footer {
 }
 
 #myphoto {
-  text-align: left;
   max-width: 120px;
   border: 5px double #48f;
   border-radius: 100%;
 }
 
-#profile h2 {
-  text-align: center;
-  letter-spacing: 0.15em;
-  color: #48f;
-  text-shadow: 1px 1px 0px #000;
-}
-
 #profile p, li{
   text-align: left;
-  margin: 5px 15px;
-  color: #48f;
+  margin: 5px 13px;
 }
 
-#profile .img-icon {
-  width: 24px;
+#profile .programing-lang-icon {
+  height: 24px;
 }
 
-.applications h2{
-  text-align: center;
+#applications{
+  margin-top:-67px;
+  padding-top:67px;
+}
+
+.applications{
   margin: 20px;
-  letter-spacing: 0.15em;
   color: #f48;
-  text-shadow: 1px 1px 0px #000;
+  text-align: center;
+}
+
+.applications a{
+  color: #f48;
+  text-align: center;
 }
 
 .applications img{
   max-width: 100%;
 }
 
+.applications p{
+  font-size: 12px;
+}
+
+.applications .col-md-3 {
+    width: 24%;
+    margin: 0.5%;
+}
+
 @media (max-width: 768px) {
   body {
-    font-size: 12px;
+    font-size: 14px;
   }
   h1 {
     font-size: 30px;
@@ -98,7 +93,30 @@ footer {
   h2 {
     font-size: 24px;
   }
-  .panel-title {
-    font-size: 14px;
+  h3 {
+    font-size: 18px;
+  }
+  .navbar-brand{
+    margin-top: 0px;
+  }
+  .applications .col-md-3 {
+    width: auto;
+  }
+  .navbar, .navbar-default, .navbar-fixed-top{
+    height: 50px;
+  }
+  #profile, #applications{
+    margin-top:-50px;
+    padding-top:50px;
+  }
+  #site-menu{
+    background-color: #f8f8f8;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+   .applications .col-md-3 {
+    width: auto;
   }
 }
