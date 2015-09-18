@@ -5,11 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" >
-    <meta name="Keywords" content="Portfolio,白鳥 啓太,Github" />
-    <!--<link rel="shortcut icon" type="image/png" href="favicon.ico">-->
+    <meta name="keywords" content="Portfolio,白鳥 啓太,Github" />
     <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico">
-    <!--<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">-->
-    <!--<link rel="shortcut icon" href="http://keitashiratori.github.io/favicon.ico" >-->
     <title>Portfolio | 白鳥 啓太</title>
     <meta name="description" content="白鳥 啓太のポートフォリオ。僕のプロフィールと作成したアプリをご紹介します。" />
     <!-- BootstrapのCSS読み込み -->
@@ -55,7 +52,7 @@
     </header>
     <div class=container>
       <br>
-      <div class="page-header firstview" id="firstview">
+      <div class="firstview" id="firstview">
         <h1><span class="bg">　Introduction of New Service</span></h1>
         <p><span class="bg">　by K.Shiratori</span></p>
       </div>
@@ -63,10 +60,9 @@
       <div class="row" id="profile">
         <div class="photo col-md-2">
           <h2>Profile</h2>
-          <img id="myphoto" src="img/profile.jpg" alt="profile"></img>
+          <img id="myphoto" src="img/profile.jpg" alt="profile"/>
         </div>
         <div class="content col-md-10">
-          <div class="spacer hidden-xs hidden-sm"></div>
           <p>
             白鳥 啓太<br>
             飛行機の窓から外を眺めるのが好きです。<br>
@@ -74,21 +70,26 @@
               <span class="glyphicon glyphicon-link" aria-hidden="true"></span> Link to Github
             </a>
           </p>
-          <ul class="nav nav-pills">
-            <li>言語&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-            <li><img class="programing-lang-icon" src="img/java.png"/> Java&nbsp;&nbsp;&nbsp;&nbsp;</li>
-            <li><img class="programing-lang-icon" src="img/cpp.png"/> C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-            <li><img class="programing-lang-icon" src="img/php.png"/> PHP&nbsp;&nbsp;&nbsp;</li>
-            <li><img class="programing-lang-icon" src="img/ruby.png"/> Ruby</li>
-          </ul>
-          <ul class="nav nav-pills">
-            <li>フレームワーク</li>
-            <li><img class="programing-lang-icon" src="img/android.png"/> Android</li>
-            <li><img class="programing-lang-icon" src="img/icon.png"/> Cocos 2d-x</li>
-            <li><img class="programing-lang-icon" src="img/magento.png"/> Magento</li>
-            <li><img class="programing-lang-icon" src="img/rails.png"/> Rails</li>
-          </ul>
-          <div class="spacer hidden-xs hidden-sm"></div>
+          <div class="table-responsive">
+          	<table class="table">
+          		<tbody>
+          			<tr>
+          				<td>使える言語</th>
+          				<td><img class="programing-lang-icon" src="img/java.png"/> Java</td>
+          				<td><img class="programing-lang-icon" src="img/cpp.png"/> C++</td>
+          				<td><img class="programing-lang-icon" src="img/php.png"/> PHP</td>
+          				<td><img class="programing-lang-icon" src="img/ruby.png"/> Ruby</td>
+          			</tr>
+          			<tr>
+          				<td>フレームワーク</th>
+          				<td><img class="programing-lang-icon" src="img/android.png"/> Android</td>
+          				<td><img class="programing-lang-icon" src="img/icon.png"/> Cocos 2d-x</td>
+          				<td><img class="programing-lang-icon" src="img/magento.png"/> Magento</td>
+          				<td><img class="programing-lang-icon" src="img/rails.png"/> Rails</td>
+          			</tr>
+          		</tbody>
+          	</table>
+          </div>
         </div>
       </div>
       <hr>
